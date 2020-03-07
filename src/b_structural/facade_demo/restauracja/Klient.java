@@ -1,9 +1,9 @@
-package b_structural.facade_demo;
+package b_structural.facade_demo.restauracja;
 
 /**
  * Created by Technician on 2019-01-16.
  */
-public class FacadeMain {
+public class Klient {
 
     public static void main(String[] args) {
         //Uzywamy fasady zeby ukryc przed klientem istnienie wielu skomplikowanych systemow

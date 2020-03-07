@@ -1,4 +1,4 @@
-package b_structural.facade_demo;
+package b_structural.facade_demo.restauracja;
 
 /**
  * Created by Technician on 2019-01-16.
