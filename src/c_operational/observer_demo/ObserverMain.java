@@ -1,4 +1,4 @@
-package c_operational.observer_demo.numbers;
+package c_operational.observer_demo;
 
 import java.util.Scanner;
 

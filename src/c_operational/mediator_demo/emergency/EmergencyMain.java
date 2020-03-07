@@ -1,6 +1,6 @@
-package c_operational.observer_demo.emergency;
+package c_operational.mediator_demo.emergency;
 
-public class EmergencyCenter {
+public class EmergencyMain {
     public static void main(String[] args) {
         Police police = new Police();
         FireDepartment fireDepartment = new FireDepartment();

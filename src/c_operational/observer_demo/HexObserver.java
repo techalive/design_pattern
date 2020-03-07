@@ -1,4 +1,4 @@
-package c_operational.observer_demo.numbers;
+package c_operational.observer_demo;
 
 /**
  * Created by Technician on 2019-01-17.
