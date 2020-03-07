@@ -3,15 +3,15 @@ package c_operational.interpreter_demo;
 /**
  * Created by Technician on 2019-01-17.
  */
-public class IntToBinaryExpression implements Expression {
+public class IntToBinaryAbstractExpression implements AbstractExpression {
 
     private int i;
 
-    IntToBinaryExpression(int c){
+    IntToBinaryAbstractExpression(int c){
         this.i=c;
     }
     @Override
-    public String interpret(InterpreterContext ic) {
+    public String interpret(Context ic) {
         return ic.getBinaryFormat(this.i);
     }
 

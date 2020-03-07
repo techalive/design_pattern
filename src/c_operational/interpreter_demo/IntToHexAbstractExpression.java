@@ -3,16 +3,16 @@ package c_operational.interpreter_demo;
 /**
  * Created by Technician on 2019-01-17.
  */
-public class IntToHexExpression implements Expression {
+public class IntToHexAbstractExpression implements AbstractExpression {
 
     private int i;
 
-    IntToHexExpression(int c){
+    IntToHexAbstractExpression(int c){
         this.i=c;
     }
 
     @Override
-    public String interpret(InterpreterContext ic) {
+    public String interpret(Context ic) {
         return ic.getHexadecimalFormat(i);
     }
 
