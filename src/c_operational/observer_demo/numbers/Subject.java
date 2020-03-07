@@ -1,4 +1,4 @@
-package c_operational.observer_demo;
+package c_operational.observer_demo.numbers;
 
 import java.util.ArrayList;
 import java.util.List;
