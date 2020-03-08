@@ -15,6 +15,9 @@ public class MediaAdapter implements MediaPlayer {
         }else if (audioType.equalsIgnoreCase("mp4")){
             advancedMusicPlayer = new Mp4Player();
         }
+        else if(audioType.equalsIgnoreCase("avi")) {
+            advancedMusicPlayer = new AviPlayer();
+        }
     }
 
     @Override
@@ -25,6 +28,9 @@ public class MediaAdapter implements MediaPlayer {
         }
         else if(audioType.equalsIgnoreCase("mp4")){
             advancedMusicPlayer.playMp4(fileName);
+        }
+        else if(audioType.equalsIgnoreCase("avi")) {
+            advancedMusicPlayer.playAvi(fileName);
         }
     }
 }

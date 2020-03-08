@@ -10,8 +10,10 @@ public class LazySingleton implements Singleton {
 
     public static LazySingleton getInstance() { //dopiero wywołanie tej metody inicjalizuje singletona
         if (instance == null) {
+            System.out.println("Tworzę");
             instance = new LazySingleton(); // to jest miejsce faktycznej inicjalizacji w metodzie
         }
+        System.out.println("zwracam");
         return instance; // jeśli już był inicjalizowany, to po prostu zwraca starą instancję
     }
 

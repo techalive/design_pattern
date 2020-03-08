@@ -13,4 +13,9 @@ public class VlcPlayer implements AdvancedMediaPlayer{
     public void playMp4(String fileName) {
         //nic nie rób, to player plików VLC!
     }
+
+    @Override
+    public void playAvi(String fileName) {
+
+    }
 }

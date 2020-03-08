@@ -5,6 +5,7 @@ public class CarFactory {
 
         if ("Family".equalsIgnoreCase(type)) return new FamilyVehicle(engine, bodyType, brand);
         else if ("Utility".equalsIgnoreCase(type)) return new UtilityVehicle(engine, bodyType, brand);
+        else if ("Sport".equalsIgnoreCase(type)) return new SportCar(engine, bodyType, brand);
 
         return null;
     }
