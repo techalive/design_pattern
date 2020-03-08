@@ -4,7 +4,14 @@ public class CarMain {
     public static void main(String[] args) {
 
         // TO DO: build sport car
-        Car sportCar = null;
+        Car sportCar = new SportCar.SportCarBuilder()
+                .setDoorsCount(3)
+                .setEngineType("LPG")
+                .setEnginePower(800)
+                .setEngineVolume(5.0f)
+                .setGearboxType("manual")
+                .setTrunkVolume(0)
+                .build();
 
         System.out.println("Engine type: " + sportCar.getEngineType());
         System.out.println("Engine volume: " + sportCar.getEngineVolume());

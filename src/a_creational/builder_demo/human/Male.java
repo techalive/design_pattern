@@ -58,7 +58,7 @@ public class Male implements Human {
         public MaleBuilder(String name, String age) {
             this.NAME = name;
             this.AGE = age;
-            clothes = "she is naked";
+            clothes = "he is naked";
         }
 
         public MaleBuilder isWorshipper(boolean worshipsGod) {

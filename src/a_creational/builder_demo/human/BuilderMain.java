@@ -20,7 +20,10 @@ public class BuilderMain {
         System.out.println();
 
         //TO DO: stwórz za pomocą buildera kobietę
-        Human ewcia = null;
+        Human ewcia = new Female.FemaleBuilder("ewcia", "22")
+                .isWorshipper(true)
+                .isSinner(true)
+                .build();
 
         System.out.println(ewcia.getSEX());
         System.out.println(ewcia.getNAME());
